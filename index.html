@@ -69,7 +69,8 @@
                             Computer. We
                             provide best assembeled desktops, branded desktop, genuine laptops, CCTV, Printers and more
                             at best and competitive prices.</p>
-                        <button type="button" class="btn btn-dark btn-lg">Do Contact Us</button>
+                        <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#getquote">Do Contact Us</button>
                     </div>
                     <div class="col-xl-1"></div>
                     <div class="col-xl-6 text-center">
@@ -220,41 +221,52 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form class="needs-validation" novalidate action="https://formsubmit.co/express.poudyal121@gmail.com" method="post">
-                        <input type="hidden" name="accessKey" value="21b44f29-5742-4eb2-adc1-baa9f29bb7b2">
+                    <form class="needs-validation" novalidate action="https://formsubmit.co/easterncomputer78@gmail.com"
+                        method="post">
+                        <!-- <input type="hidden" name="accessKey" value="21b44f29-5742-4eb2-adc1-baa9f29bb7b2"> -->
                         <!-- Required -->
 
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" name="name" class="form-control" id="name" required>
                             <div class="invalid-feedback">
-                                Please provide your name.
+                                Please provide your name!
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                            <label for="inputEmail1" class="form-label">Email address!</label>
+                            <input type="email" name="email" class="form-control" id="inputEmail1"
                                 aria-describedby="emailHelp" required>
                             <div class="invalid-feedback">Please Provide Your Email</div>
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
                             </div>
                         </div>
                         <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="number" name="number" class="form-control" id="number" required>
+                            <div class="invalid-feedback">
+                                Please provide phone number!
+                            </div>
+                        </div>
+                        <div class="mb-3">
                             <label for="subject" class="form-label">Subject</label>
-                            <input type="text" name="subject" class="form-control" id="subject" required>
+                            <input type="text" name="_subject" class="form-control" id="subject" required>
                             <div class="invalid-feedback">
                                 Please provide subject for quotation!
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="details" class="form-label">Tell Us Your Query About?</label>
-                            <textarea type="text" name="$Details of Message" class="form-control" id="details"
+                            <textarea type="text" name="Details of Message" class="form-control" id="details"
                                 required></textarea>
                             <div class="invalid-feedback">
                                 Please provide query for quotation!
                             </div>
                         </div>
-                        <input type="hidden" name="redirectTo" value="https://www.easterncomputer.com.np/success.html">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://easterncomputer.com.np/success.html">
+                        <input type="text" name="_honey" style="display:none">
                         <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
                 </form>
@@ -272,7 +284,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-    <script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+    <script>// JavaScript for disabling form submissions if there are invalid fields
         (function () {
             'use strict'
 

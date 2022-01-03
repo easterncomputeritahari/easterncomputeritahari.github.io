@@ -93,6 +93,21 @@ article{
      
  }
 
+ /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#margin{
+    margin-top: 50%;
+}
 
 /* background: rgb(240,240,242);
 background: linear-gradient(90deg, rgba(240,240,242,1) 0%, rgba(210,214,217,1) 100%); */
