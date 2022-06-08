@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #dc3545;
+  overflow-x: hidden;
+}
+.my-home {
+  background-color: #f4d25a;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.my-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+/* ul {
+  list-style: none;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 600px;
+  margin-bottom: 0;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #dc3545;
+}
+li a:hover {
+  color: #fafdf6;
+  transition: all 0.3s linear;
+} */
+/* .my-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  margin-bottom: 0;
+}
+li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #dc3545;
+}
+li a:hover {
+  color: #fafdf6;
+  transition: all 0.3s linear;
+} */
+.my-color2 {
+  color: #ddd92a;
+}
+.my-color {
+  background-color: #f4d25a;
+  color: #dc3545;
+}
+.my-logo {
+  text-decoration: none;
+  color: #dc3545;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.my-logo:hover {
+  /* border-bottom: 5px dotted #fafdf6; */
+  color: #fafdf6;
+  transition: all 0.3s linear;
+  font-weight: 600;
+}
+.my-main {
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+  align-items: center;
+}
+.main-img {
+  width: 384px;
+  height: 441px;
+}
+article {
+  background-color: #f4d25a;
+  color: #fafdf6;
+  padding: 2rem 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .main-text {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .my-home {
+    height: auto;
+  }
+  .my-main {
+    height: auto;
+  }
+  .main-img {
+    width: 219.43px;
+    height: 252px;
+  }
+  .main-text {
+    font-size: 18px;
+  }
+  .my-col-1 {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 15px; */
+  }
+}
